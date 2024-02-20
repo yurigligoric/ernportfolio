@@ -15,8 +15,8 @@ function Home() {
 
             </div>
         </div>
-        <div id="about" className='justify-center flex flex-col items-center mt-12 lg:mt-32 '>
-            <div className='flex flex-col custom-bg-color2 w-full lg:w-[60%]'>
+        <div id="about" className='justify-center flex flex-col items-center mt-12 lg:mt-24  '>
+            <div className='flex flex-col custom-bg-color2 w-full lg:w-[65%] rounded-b-3xl lg:rounded-t-none rounded-t-3xl'>
                 <div>
                     <h1 className='text-3xl font-serif justify-center flex flex-col items-center'>About Me</h1>
                 </div>
