@@ -10,7 +10,7 @@ function Home() {
                 <h1>Hi I&apos;m Ern</h1>    
                 <h1>Software and Game Developer</h1>
             </div>
-            <img src={image} />
+            <img src={image} className='object-cover'/>
         </div>
         <div>
             <h1>About Me</h1>
@@ -22,8 +22,22 @@ function Home() {
         </div>
         <div>
             <h1>Works and Projects</h1>
-            
-
+            <div className='flex flex-col lg:flex-row justify-evenly'>
+                <div className='ml-7 mr-7'>
+                    <img src={image}/>
+                </div>
+                <div className='ml-7 mr-7'>
+                    <img src={image}/>
+                </div>
+            </div>
+            <div className='flex flex-col lg:flex-row justify-evenly'>
+                <div className='ml-7 mr-7'>
+                    <img src={image}/>
+                </div>
+                <div className='ml-7 mr-7'>
+                    <img src={image}/>
+                </div>
+            </div>
         </div>
         Home
         <a href="../assets/CV_Ernesto BanawaJr.doc" download="ErnBanawaResume.doc">
