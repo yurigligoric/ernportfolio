@@ -4,13 +4,13 @@ import image from '../assets/ernbanawa.jpg'
 
 function Home() {
   return (
-    <div className='flex flex-col bg-black text-white w-full h-full pt-16 font-serif'>
+    <div className='flex flex-col bg-blue-700 text-white w-full h-full pt-16 font-serif'>
         <div className='flex flex-1 flex-col lg:flex-row justify-evenly' >
             <div className='mt-10'>
                 <h1 className='lg:text-5xl mb-2 font-serif'>Hi I&apos;m Ern</h1>    
                 <h1 className='ml-4 lg:text-3xl font-serif'>Software and Game Developer</h1>
             </div>
-            <img src={image} className='object-cover mt-10'/>
+            <img src={image} className='object-cover mt-10 rounded-full'/>
         </div>
         <div id="about" className='justify-center flex flex-col items-center mt-12'>
             <div>
@@ -30,18 +30,18 @@ function Home() {
             <h1>Works and Projects</h1>
             <div className='flex flex-col lg:flex-row justify-evenly mb-10'>
                 <div className='ml-7 mr-7'>
-                    <img src={image}/>
+                    <img src={image} className='border-solid border-yellow-400 border-4'/>
                 </div>
                 <div className='ml-7 mr-7'>
-                    <img src={image}/>
+                    <img src={image} className='border-solid border-yellow-400 border-4'/>
                 </div>
             </div>
             <div className='flex flex-col lg:flex-row justify-evenly'>
                 <div className='ml-7 mr-7'>
-                    <img src={image}/>
+                    <img src={image} className='border-solid border-yellow-400 border-4'/>
                 </div>
                 <div className='ml-7 mr-7'>
-                    <img src={image}/>
+                    <img src={image} className='border-solid border-yellow-400 border-4'/>
                 </div>
             </div>
         </div>
