@@ -67,10 +67,10 @@ function Home() {
                 </div>
                
             </div>
-            <div  className='flex flex-col lg:flex-row items-center'>
+            <div  className='flex sm:flex-row flex-col mb-12 items-center mt-4 mr-48'>
                 
-                <div className='ml-7 mr-7'>
-                    <img src={revup} className='object-cover border-solid border-yellow-400 border-4' />
+                <div className='w-[50%] ml-7 pl-32'>
+                    <img src={revup} className='object-cover border-solid border-yellow-400 border-4 mx-auto' />
                 </div>
                 <div className='w-[50%] ml-8 mr-12 pr-12'>
                     <p className='text-lg -mt-24 '>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p>
