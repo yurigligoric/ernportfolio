@@ -1,6 +1,9 @@
 import React from 'react'
 import image from '../assets/ernbanawa.jpg'
 //import resume from '../assets/CV_Ernesto BanawaJr.doc'
+import revup from '../assets/FrontRevUp.png'
+import mindboost from '../assets/mindboost.png'
+import quotes from '../assets/quotes.png'
 
 function Home() {
   return (
@@ -18,7 +21,7 @@ function Home() {
         <div id="about" className='justify-center flex flex-col items-center mt-12 lg:mt-24  '>
             <div className='flex flex-col custom-bg-color2 w-full lg:w-[65%] rounded-b-3xl lg:rounded-t-none rounded-t-3xl'>
                 <div>
-                    <h1 className='text-3xl font-serif justify-center flex flex-col items-center'>About Me</h1>
+                    <h1 className='text-3xl font-serif justify-center flex flex-col items-center mt-5'>About Me</h1>
                 </div>
                 <div className='flex flex-col content-center justify-center mt-4'>
                     <p className='ml-4 mr-3 lg:ml-12 lg:mr-12'>I&apos;m a passionate software and game developer with years of experience creating and maintaining software, web and game apps. Since the start of my working career I have always gravitated to software development and I want to continue it that way. </p>
@@ -39,26 +42,47 @@ function Home() {
             <h1 className='mr-3 font-serif text-2xl'>Skills:  </h1>
             <p className='flex items-center justify-center ml-5'>Javascript, React JS, React Native, C#, Unity, Unreal Engine, Git, Plastic SCM, Node, Express, MongoDB</p>
         </div>
-        <div id='works' className='justify-center flex flex-col items-center mt-11'>
-            <h1 className='text-2xl font-serif'>Works and Projects</h1>
-            <div className='flex flex-col lg:flex-row justify-evenly mb-10'>
-                <div className='ml-7 mr-7'>
-                    <img src={image} className='border-solid border-yellow-400 border-4'/>
+        <div id='works' className='justify-center flex flex-col items-center mt-11 mb-12'>
+            <h1 className='text-2xl font-serif mb-5'>Works and Projects</h1>
+            <div className='flex sm:flex-row flex-col mb-12 items-center mt-4 mr-48'>
+                <div className='w-[50%]'>
+                    <div className='ml-48'>
+                        <img src={mindboost} className='border-solid border-yellow-400 border-4 mx-auto '/>
+
+                    </div>
                 </div>
-                <div className='ml-7 mr-7'>
-                    <img src={image} className='border-solid border-yellow-400 border-4'/>
+                <div className='w-[50%] ml-8 mr-12 pr-12'>
+                    <p className='text-lg -mt-24 '>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p>
                 </div>
+               
             </div>
-            <div className='flex flex-col lg:flex-row justify-evenly'>
-                <div className='ml-7 mr-7'>
-                    <img src={image} className='border-solid border-yellow-400 border-4'/>
+            <div className='flex flex-col lg:flex-row items-center mb-10'>
+                <div className='w-[50%] ml-48 pr-32 mr-12'>
+                    <p className='text-lg'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p>
                 </div>
+                <div className='mr-24'>
+                    <div className='mr-68'>
+                        <img src={quotes} className='border-solid border-yellow-400 border-4 mx-auto'/>
+                    </div>
+                </div>
+               
+            </div>
+            <div  className='flex flex-col lg:flex-row items-center'>
+                
                 <div className='ml-7 mr-7'>
-                    <img src={image} className='border-solid border-yellow-400 border-4'/>
+                    <img src={revup} className='object-cover border-solid border-yellow-400 border-4' />
+                </div>
+                <div className='w-[50%] ml-8 mr-12 pr-12'>
+                    <p className='text-lg -mt-24 '>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p>
                 </div>
             </div>
         </div>
-
+        <footer className="bg-gray-800 text-white py-4">
+            <div className="container mx-auto text-center">
+                &copy; 2024 Ern Banawa. All rights reserved.
+            </div>
+        </footer>
+    
        
     </div>
  
