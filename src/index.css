@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.custom-bg-color {
+  background-color: #323445;
+}
+
+
+.custom-bg-color2 {
+  background-color: #242533;
+}
+
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
