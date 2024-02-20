@@ -7,7 +7,7 @@ function Home() {
     <div className='flex flex-col custom-bg-color text-white w-full h-full pt-16'>
         <div className='flex flex-1 flex-col lg:flex-row justify-evenly' >
             <div className='flex mt-10 items-center justify-center flex-col'>
-                <h1 className='text-5xl mb-2 font-serif '>Hi I&apos;m Ern</h1>    
+                <h1 className='text-5xl mb-2 font-serif '>Hi, I&apos;m Ern</h1>    
                 <h1 className='text-2xl ml-4 lg:text-3xl'>Software and Game Developer</h1>
             </div>
             <div className='flex items-center justify-center'>
@@ -15,19 +15,25 @@ function Home() {
 
             </div>
         </div>
-        <div id="about" className='justify-center flex flex-col items-center mt-12 custom-bg-color2'>
-            <div>
-                <h1 className='text-3xl font-serif'>About Me</h1>
-
-            </div>
-            <div className='flex flex-col content-center justify-center'>
-                <p>I&apos;m a passionate software and game developer</p>
-                <div className='flex justify-center content-center text-blue-400'>
-                    <a href="../assets/CV_Ernesto BanawaJr.doc" download="ErnBanawaResume.doc">
+        <div id="about" className='justify-center flex flex-col items-center mt-12 lg:mt-32 '>
+            <div className='flex flex-col custom-bg-color2 w-full lg:w-[60%]'>
+                <div>
+                    <h1 className='text-3xl font-serif justify-center flex flex-col items-center'>About Me</h1>
+                </div>
+                <div className='flex flex-col content-center justify-center mt-4'>
+                    <p className='ml-4 mr-3 lg:ml-12 lg:mr-12'>I&apos;m a passionate software and game developer with years of experience creating and maintaining software, web and game apps. Since the start of my working career I have always gravitated to software development and I want to continue it that way. </p>
+                    <div className='flex justify-center content-center text-blue-400 mt-5'>
+                        <a href="../assets/CV_Ernesto BanawaJr.doc" download="ErnBanawaResume.doc">
                         Download Resume
-                    </a>
+                        </a>
+                    </div>
                 </div>
             </div>
+            <div>
+
+            </div>
+
+
         </div>
         <div id="skills" className='items-center justify-center flex flex-col lg:flex-row mt-12'>
             <h1 className='mr-3 font-serif text-2xl'>Skills:  </h1>
