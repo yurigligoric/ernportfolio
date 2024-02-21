@@ -44,30 +44,30 @@ function Home() {
         </div>
         <div id='works' className='justify-center flex flex-col items-center mt-11 mb-12'>
             <h1 className='text-2xl font-serif mb-5'>Works and Projects</h1>
-            <div className='flex sm:flex-row flex-col mb-12 items-center mt-4 mr-48'>
-                <div className='w-[50%]'>
-                    <div className='ml-48'>
+            <div className='flex flex-col lg:flex-row mb-12 lg:items-center mt-4 mr-2 lg:mr-48'>
+                <div className='w-full lg:w-[50%]'>
+                    <div className='ml-2 lg:ml-48'>
                         <img src={mindboost} className='border-solid border-yellow-400 border-4 mx-auto '/>
 
                     </div>
                 </div>
-                <div className='w-[50%] ml-8 mr-12 pr-12'>
-                    <p className='text-lg -mt-24 '>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p>
+                <div className='w-full lg:w-[50%] ml-8 mr-12 pr-12'>
+                    <p className='text-lg mt-8 lg:-mt-24 '>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p>
                 </div>
                
             </div>
-            <div className='flex flex-col lg:flex-row items-center mb-10'>
-                <div className='w-[50%] ml-48 pr-32 mr-12'>
-                    <p className='text-lg'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p>
+            <div className='flex flex-col-reverse lg:flex-row items-center mb-10'>
+                <div className='w-full lg:w-[50%] mt-4 lg:-mt-0 lg:ml-48 pr-32 mx-auto lg:mr-12'>
+                    <p className='text-lg ml-2'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p>
                 </div>
-                <div className='mr-24'>
-                    <div className='mr-68'>
+                <div className='lg:mr-24'>
+                    <div className='lg:mr-68'>
                         <img src={quotes} className='border-solid border-yellow-400 border-4 mx-auto'/>
                     </div>
                 </div>
                
             </div>
-            <div  className='flex sm:flex-row flex-col mb-12 items-center mt-4 mr-48'>
+            <div  className='flex lg:flex-row flex-col mb-12 items-center mt-4 mr-48'>
                 
                 <div className='w-[50%] ml-7 pl-32'>
                     <img src={revup} className='object-cover border-solid border-yellow-400 border-4 mx-auto' />
