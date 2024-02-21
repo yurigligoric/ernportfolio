@@ -56,8 +56,8 @@ function Home() {
                 </div>
                
             </div>
-            <div className='flex flex-col-reverse lg:flex-row items-center mb-10'>
-                <div className='w-full lg:w-[50%] mt-4 lg:-mt-0 lg:ml-48 pr-32 mx-auto lg:mr-12'>
+            <div className='flex flex-col-reverse lg:flex-row lg:items-center mb-10 mr-12'>
+                <div className='w-full lg:w-[50%] mt-4 lg:-mt-0 lg:ml-48 lg:pr-32 ml-8 mr-12'>
                     <p className='text-lg ml-2'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p>
                 </div>
                 <div className='lg:mr-24'>
@@ -67,13 +67,13 @@ function Home() {
                 </div>
                
             </div>
-            <div  className='flex lg:flex-row flex-col mb-12 items-center mt-4 mr-48'>
+            <div  className='flex lg:flex-row flex-col mb-12 items-center ml-3 mt-4 lg:mr-48'>
                 
-                <div className='w-[50%] ml-7 pl-32'>
-                    <img src={revup} className='object-cover border-solid border-yellow-400 border-4 mx-auto' />
+                <div className='w-full lg:w-[50%] lg:ml-7 lg:pl-32 mx-auto'>
+                    <img src={revup} className='object-cover border-solid border-yellow-400 border-4 lg:mx-auto' />
                 </div>
-                <div className='w-[50%] ml-8 mr-12 pr-12'>
-                    <p className='text-lg -mt-24 '>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p>
+                <div className='w-full lg:w-[50%] ml-8 mr-12 lg:pr-12'>
+                    <p className='text-lg mt-6 lg:-mt-24 ml-6'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p>
                 </div>
             </div>
         </div>
