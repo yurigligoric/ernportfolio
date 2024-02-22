@@ -1,4 +1,5 @@
 import React from 'react'
+
 import image from '../assets/ernbanawa.jpg'
 //import resume from '../assets/CV_Ernesto BanawaJr.doc'
 import revup from '../assets/FrontRevUp.png'
@@ -55,7 +56,7 @@ function Home() {
                     {/* <p className='text-lg mt-8 lg:-mt-24 '>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p> */}
                     <h1 className='text-2xl mt-6 lg:-mt-20 ml-6 mb-4'>MindBooster</h1>
                     <p className='text-lg ml-6'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges.</p>
-                
+                    
                 </div>
 
                
