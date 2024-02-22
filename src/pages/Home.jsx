@@ -27,8 +27,17 @@ function Home() {
     }
 
     return (
-    <div className='flex flex-col custom-bg-color text-white w-full h-full pt-16'>
-        <div className='flex flex-1 flex-col lg:flex-row justify-evenly' >
+    <div id="home" className='flex flex-col custom-bg-color text-white w-full h-full pt-16'>
+        <div className='flex flex-row justify-end'>
+            <nav >
+                <ul className='flex flex-row lg:mr-64 lg:mt-2 -mt-6'>
+                    <li className='text-lg mr-6'><a href="#home">Home</a></li>
+                    <li className='text-lg mr-6'><a href="#about">About</a></li>
+                    <li className='text-lg mr-6'><a href="#works">Works</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div className='flex flex-1 flex-col lg:flex-row justify-evenly mt-12' >
             <div className='flex mt-10 items-center justify-center flex-col'>
                 <h1 className='text-5xl mb-2 font-serif '>Hi, I&apos;m Ern</h1>    
                 <h1 className='text-2xl ml-4 lg:text-3xl'>Software and Game Developer</h1>
@@ -39,7 +48,7 @@ function Home() {
             </div>
         </div>
         <div id="about" className='justify-center flex flex-col items-center mt-12 lg:mt-24  '>
-            <div className='flex flex-col custom-bg-color2 w-full lg:w-[65%] rounded-b-3xl lg:rounded-t-none rounded-t-3xl'>
+            <div id="about" className='flex flex-col custom-bg-color2 w-full lg:w-[65%] rounded-b-3xl lg:rounded-t-none rounded-t-3xl'>
                 <div>
                     <h1 className='text-3xl font-serif justify-center flex flex-col items-center mt-5'>About Me</h1>
                 </div>
@@ -62,8 +71,8 @@ function Home() {
             <h1 className='mr-3 font-serif text-2xl'>Skills:  </h1>
             <p className='flex items-center justify-center ml-5'>Javascript, React JS, React Native, C#, Unity, Unreal Engine, Git, Plastic SCM, Node, Express, MongoDB</p>
         </div>
-        <div id='works' className='justify-center flex flex-col items-center mt-11 mb-12'>
-            <h1 className='text-2xl font-serif mb-5'>Works and Projects</h1>
+        <div id='works' className='justify-center flex flex-col items-center mt-2 mb-12'>
+            <h1 className='text-3xl font-serif mb-5 mt-12'>Works and Projects</h1>
             <div className='flex flex-col lg:flex-row mb-12 lg:items-center mt-4 mr-2 lg:mr-48'>
                 <div className='w-full lg:w-[50%]'>
                     <div className='ml-2 lg:ml-48'>
