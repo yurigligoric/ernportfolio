@@ -67,7 +67,7 @@ function Home() {
             <div className='flex flex-col lg:flex-row mb-12 lg:items-center mt-4 mr-2 lg:mr-48'>
                 <div className='w-full lg:w-[50%]'>
                     <div className='ml-2 lg:ml-48'>
-                        <img src={mindboost} className='border-solid border-yellow-400 border-4 mx-auto '/>
+                        <img src={mindboost} className='border-solid border-yellow-400 border-4 mx-auto transform transform-transition hover:scale-110'/>
 
                     </div>
                 </div>
@@ -93,7 +93,7 @@ function Home() {
                 </div>
                 <div className='lg:mr-24'>
                     <div className='lg:mr-68'>
-                        <img src={quotes} className='border-solid border-yellow-400 border-4 mx-auto'/>
+                        <img src={quotes} className='border-solid border-yellow-400 border-4 mx-auto transform transform-transition hover:scale-110'/>
                     </div>
                 </div>
                
@@ -101,14 +101,14 @@ function Home() {
             <div  className='flex lg:flex-row flex-col mb-12 items-center ml-3 mt-4 lg:mr-48'>
                 
                 <div className='w-full lg:w-[50%] lg:ml-7 lg:pl-32 mx-auto'>
-                    <img src={revup} className='object-cover border-solid border-yellow-400 border-4 lg:mx-auto' />
+                    <img src={revup} className='object-cover border-solid border-yellow-400 border-4 lg:mx-auto transform transform-transition hover:scale-110' />
                 </div>
                 <div className='w-full lg:w-[50%] ml-8 mr-12 lg:pr-12 mt-16'>
                     <h1 className='text-2xl lg:-mt-20 ml-8 mb-4'>Rev Up: Car Racing Game</h1>
                     <p className='text-lg ml-8'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges.</p>
                     {/* <p className='text-lg mt-6 lg:-mt-20 ml-6'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p> */}
                     <div className='flex content-center justify-start ml-8 mt-4'>
-                        <button id="revup" onClick={handleClick} className='bg-orange-600  rounded-2xl px-2  py-1'>Google Store</button>
+                        <button id="revup" onClick={handleClick} className='bg-orange-600  rounded-2xl px-2  py-1 '>Google Store</button>
                     </div>
                 </div>
             </div>
