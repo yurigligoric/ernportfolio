@@ -6,8 +6,27 @@ import revup from '../assets/FrontRevUp.png'
 import mindboost from '../assets/mindboost.png'
 import quotes from '../assets/quotes.png'
 
+const externalLinks = {
+    mindboost : "https://play.google.com/store/apps/details?id=com.mindboosterapp&hl=en-PH",
+    revup : "https://play.google.com/store/apps/details?id=com.u92GamesStudio.RevUp&hl=en-PH",
+    quotes: "https://play.google.com/store/apps/details?id=com.u92gamesstudio.dailyquotesapp&hl=en-PH"
+}
+
 function Home() {
-  return (
+
+    const handleClick = (event) =>{
+        const id = event.currentTarget.id
+        const externalLink = externalLinks[id];
+        
+        if(externalLink)
+        {
+            window.open(externalLink, '_blank')
+        } else{
+            console.error('No external link provided')
+        }
+    }
+
+    return (
     <div className='flex flex-col custom-bg-color text-white w-full h-full pt-16'>
         <div className='flex flex-1 flex-col lg:flex-row justify-evenly' >
             <div className='flex mt-10 items-center justify-center flex-col'>
@@ -56,7 +75,9 @@ function Home() {
                     {/* <p className='text-lg mt-8 lg:-mt-24 '>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p> */}
                     <h1 className='text-2xl mt-6 lg:-mt-20 ml-6 mb-4'>MindBooster</h1>
                     <p className='text-lg ml-6'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges.</p>
-                    
+                    <div className='flex content-center justify-start ml-8 mt-4'>
+                        <button id="mindboost"  onClick={handleClick} className='bg-orange-600  rounded-2xl px-2  py-1'>Google Store</button>
+                    </div>
                 </div>
 
                
@@ -65,7 +86,9 @@ function Home() {
                 <div className='w-full lg:w-[50%] mt-4 lg:-mt-0 lg:ml-48 lg:pr-32 ml-8 mr-12'>
                     <h1 className='text-2xl mt-6 lg:-mt-20 ml-6 mb-4'>Daily Quotes</h1>
                     <p className='text-lg ml-6'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges.</p>
-                
+                    <div className='flex content-center justify-start ml-8 mt-4'>
+                        <button id="quotes"  onClick={handleClick} className='bg-orange-600  rounded-2xl px-2  py-1'>Google Store</button>
+                    </div>
                     {/* <p className='text-lg ml-2'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p> */}
                 </div>
                 <div className='lg:mr-24'>
@@ -80,11 +103,13 @@ function Home() {
                 <div className='w-full lg:w-[50%] lg:ml-7 lg:pl-32 mx-auto'>
                     <img src={revup} className='object-cover border-solid border-yellow-400 border-4 lg:mx-auto' />
                 </div>
-                <div className='w-full lg:w-[50%] ml-8 mr-12 lg:pr-12'>
-                    <h1 className='text-2xl mt-6 lg:-mt-20 ml-6 mb-4'>Rev Up: Car Racing Game</h1>
-                    <p className='text-lg ml-6'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges.</p>
+                <div className='w-full lg:w-[50%] ml-8 mr-12 lg:pr-12 mt-16'>
+                    <h1 className='text-2xl lg:-mt-20 ml-8 mb-4'>Rev Up: Car Racing Game</h1>
+                    <p className='text-lg ml-8'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges.</p>
                     {/* <p className='text-lg mt-6 lg:-mt-20 ml-6'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p> */}
-                    
+                    <div className='flex content-center justify-start ml-8 mt-4'>
+                        <button id="revup" onClick={handleClick} className='bg-orange-600  rounded-2xl px-2  py-1'>Google Store</button>
+                    </div>
                 </div>
             </div>
         </div>
