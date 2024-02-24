@@ -53,7 +53,7 @@ function Home() {
                     <h1 className='text-3xl font-serif justify-center flex flex-col items-center mt-5'>About Me</h1>
                 </div>
                 <div className='flex flex-col content-center justify-center mt-4'>
-                    <p className='ml-4 mr-3 lg:ml-12 lg:mr-12'>I&apos;m a passionate software and game developer with years of experience creating and maintaining software, web and game apps. Since the start of my working career I have always gravitated to software development and I want to continue it that way. </p>
+                    <p className='ml-4 mr-3 lg:ml-12 lg:mr-12'>I&apos;m a passionate software and game developer with years of experience creating and maintaining software, web and game apps. It has always been mantra to continue learning and technology has always supplied the reasons for it. Lastly, my mission in engaging in tech industry is to provide the best software apps to the limits of my skills and creativity.</p>
                     <div className='flex justify-center content-center text-blue-400 mt-5'>
                         <a href="../assets/CV_Ernesto BanawaJr.doc" download="ErnBanawaResume.doc">
                         Download Resume
@@ -94,7 +94,7 @@ function Home() {
             <div className='flex flex-col-reverse lg:flex-row lg:items-center mb-10 mr-12'>
                 <div className='w-full lg:w-[50%] mt-4 lg:-mt-0 lg:ml-48 lg:pr-32 ml-8 mr-12'>
                     <h1 className='text-2xl mt-6 lg:-mt-20 ml-6 mb-4'>Daily Quotes</h1>
-                    <p className='text-lg ml-6'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges.</p>
+                    <p className='text-lg ml-6'>An app also made in React Native. It is a collection of helpful quotes to inspire and make the user be positive in his/her actions to achieve goals and aspirations. </p>
                     <div className='flex content-center justify-start ml-8 mt-4'>
                         <button id="quotes"  onClick={handleClick} className='bg-orange-600  rounded-2xl px-2  py-1'>Google Store</button>
                     </div>
@@ -114,7 +114,7 @@ function Home() {
                 </div>
                 <div className='w-full lg:w-[50%] ml-8 mr-12 lg:pr-12 mt-16'>
                     <h1 className='text-2xl lg:-mt-20 ml-8 mb-4'>Rev Up: Car Racing Game</h1>
-                    <p className='text-lg ml-8'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges.</p>
+                    <p className='text-lg ml-8'>Rev Up is free mobile game made in Unity. This game presents 12 low-poly collectible cars and 12 creative race tracks for the delight of the player.</p>
                     {/* <p className='text-lg mt-6 lg:-mt-20 ml-6'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p> */}
                     <div className='flex content-center justify-start ml-8 mt-4'>
                         <button id="revup" onClick={handleClick} className='bg-orange-600  rounded-2xl px-2  py-1 '>Google Store</button>
