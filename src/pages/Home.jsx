@@ -114,7 +114,7 @@ function Home() {
                 </div>
                 <div className='w-full lg:w-[50%] ml-8 mr-12 lg:pr-12 mt-16'>
                     <h1 className='text-2xl lg:-mt-20 ml-8 mb-4'>Rev Up: Car Racing Game</h1>
-                    <p className='text-lg ml-8'>Rev Up is free mobile game made in Unity. This game presents 12 low-poly collectible cars and 12 creative race tracks for the delight of the player.</p>
+                    <p className='text-lg ml-8'>Rev Up is free mobile game made in Unity. This game presents 12 low-poly collectible cars and 12 creative race tracks for the delight of the players.</p>
                     {/* <p className='text-lg mt-6 lg:-mt-20 ml-6'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p> */}
                     <div className='flex content-center justify-start ml-8 mt-4'>
                         <button id="revup" onClick={handleClick} className='bg-orange-600  rounded-2xl px-2  py-1 '>Google Store</button>
