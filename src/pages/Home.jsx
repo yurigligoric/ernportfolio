@@ -43,7 +43,7 @@ function Home() {
         <div className='flex flex-1 flex-col lg:flex-row justify-evenly mt-12' >
             <div className='flex mt-10 items-center justify-center flex-col'>
                 <h1 className='text-5xl mb-2 font-serif '>Hi, I&apos;m Ern</h1>    
-                <h1 className='text-2xl ml-4 lg:text-3xl'>Software and Game Developer</h1>
+                <h1 className='text-2xl ml-2 lg:ml-4 lg:text-3xl'>Software and Game Developer</h1>
             </div>
             <div className='flex items-center justify-center'>
                 <img src={image} className='mt-10 rounded-full w-48 h-48 sm:w-64 sm:h-64'/>
