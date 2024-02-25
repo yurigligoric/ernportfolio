@@ -1,6 +1,6 @@
 import React from 'react'
 
-import image from '../assets/ernbanawa.jpg'
+import image from '../assets/ern_profile.png'
 //import resume from '../assets/CV_Ernesto BanawaJr.doc'
 import revup from '../assets/FrontRevUp.png'
 import mindboost from '../assets/mindboost.png'
