@@ -28,6 +28,9 @@ function Home() {
 
     return (
     <div id="home" className='flex flex-col custom-bg-color text-white w-full h-full pt-16'>
+        {/* <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                <div className="w-full h-80 bg-blue-800 rounded-full opacity-70"></div>
+            </div> */}
         <div className='flex flex-row justify-end'>
             <nav >
                 <ul className='flex flex-row lg:mr-64 lg:mt-2 -mt-6'>
@@ -92,16 +95,16 @@ function Home() {
                
             </div>
             <div className='flex flex-col-reverse lg:flex-row lg:items-center mb-10 mr-12'>
-                <div className='w-full lg:w-[50%] mt-4 lg:-mt-0 lg:ml-48 lg:pr-32 ml-8 mr-12'>
-                    <h1 className='text-2xl mt-6 lg:-mt-20 ml-6 mb-4'>Daily Quotes</h1>
-                    <p className='text-lg ml-6'>An app also made in React Native. It is a collection of helpful quotes to inspire and make the user be positive in his/her actions to achieve goals and aspirations. </p>
+                <div className='w-full lg:w-[50%] mt-4 lg:-mt-0 lg:ml-48 pl-12'>
+                    <h1 className='text-2xl mt-6 lg:-mt-20 ml-2 lg:ml-6 mb-4'>Daily Quotes</h1>
+                    <p className='text-lg ml-2 lg:ml-6'>An app also made in React Native. It is a collection of helpful quotes to inspire and make the user be positive in his/her actions to achieve goals and aspirations. </p>
                     <div className='flex content-center justify-start ml-8 mt-4'>
                         <button id="quotes"  onClick={handleClick} className='bg-orange-600  rounded-2xl px-2  py-1'>Google Store</button>
                     </div>
                     {/* <p className='text-lg ml-2'>An app made in React Native. It is a collection of self-help written materials that can help the user bounce back and gain mental fortitude in facing his/her challenges. </p> */}
                 </div>
-                <div className='lg:mr-24'>
-                    <div className='lg:mr-68'>
+                <div className='w-full lg:w-[50%] lg:pr-32'>
+                    <div className='lg:mr-68 ml-8'>
                         <img src={quotes} className='border-solid border-yellow-400 border-4 mx-auto transform transform-transition hover:scale-110'/>
                     </div>
                 </div>
