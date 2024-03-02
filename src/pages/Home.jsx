@@ -53,7 +53,7 @@ function Home() {
         <div id="about" className='justify-center flex flex-col items-center mt-12 lg:mt-24  '>
             <div id="about" className='flex flex-col custom-bg-color2 w-full lg:w-[65%] rounded-b-3xl lg:rounded-t-none rounded-t-3xl'>
                 <div>
-                    <h1 className='text-3xl font-serif justify-center flex flex-col items-center mt-5'>About Me</h1>
+                    <h1 className='text-3xl  justify-center font-serif flex flex-col items-center mt-5'>About Me</h1>
                 </div>
                 <div className='flex flex-col content-center justify-center mt-4'>
                     <p className='ml-4 mr-3 lg:ml-12 lg:mr-12'>I&apos;m a passionate software and game developer with years of experience creating and maintaining software, web and game apps. It has always been my mantra to continue learning and technology has always supplied the reasons for it. Lastly, my mission in engaging in tech industry is to provide the best software apps to the limits of my skills and creativity.</p>
