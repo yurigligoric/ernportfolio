@@ -70,7 +70,7 @@ function Home() {
 
 
         </div>
-        <div id="skills" className='items-center justify-center flex flex-col lg:flex-row mt-12'>
+        <div id="skills" className='items-center flex justify-center  flex-col lg:flex-row mt-12'>
             <h1 className='mr-3 font-serif text-2xl'>Skills:  </h1>
             <p className='flex items-center justify-center ml-5'>Javascript, React JS, React Native, C#, Unity, Unreal Engine, Git, Plastic SCM, Node, Express, MongoDB</p>
         </div>
